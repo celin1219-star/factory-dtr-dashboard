@@ -1,0 +1,25 @@
+웹 배포 순서 — VSCode 필요 없음
+=============================
+
+1) 이 ZIP을 풀고 안의 파일 전체를 GitHub 새 저장소에 업로드
+   - GitHub.com > New repository
+   - 저장소 이름 예: factory-dtr-dashboard
+   - Add file > Upload files
+   - ZIP 자체가 아니라 ZIP을 푼 파일들을 업로드
+   - Commit changes
+
+2) Render.com 접속
+   - New > Web Service
+   - GitHub 연결
+   - 방금 만든 factory-dtr-dashboard 저장소 선택
+   - render.yaml이 들어 있으므로 설정은 자동으로 잡힘
+   - Free plan 선택 후 Create Web Service
+
+3) 배포 완료 후 Render가
+   https://factory-dtr-dashboard-xxxx.onrender.com
+   같은 공개 주소를 줌.
+   이 주소는 다른 사람에게 그대로 보내면 됨.
+
+참고
+- 무료 Render Web Service는 한동안 접속이 없으면 잠들 수 있어 첫 접속이 느릴 수 있음.
+- 사이트 안의 외기온도/부하파일 업로드 기능은 그대로 사용 가능.
